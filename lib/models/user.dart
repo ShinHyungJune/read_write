@@ -30,6 +30,7 @@ class User {
     return map;
   }
 
+  // setter 역할도 함
   User.fromMap(Map<String, dynamic> map){
     this._id = map["id"];
     this._name = map["name"];

@@ -47,7 +47,7 @@ class DatabaseHelper {
 
 
   // INDEX
-  Future<List> index() async {
+  Future<List> all() async {
     var client = await db;
     var result = await client.rawQuery("SELECT * FROM users");
 
